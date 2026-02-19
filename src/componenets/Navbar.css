@@ -1,0 +1,68 @@
+/* Navbar Base */
+.custom-navbar {
+  background-color: #222;
+  padding: 18px 0;
+  min-height: 75px;
+  transition: all 0.3s ease;
+  z-index: 999;
+}
+
+/* Add space below fixed navbar */
+body {
+  padding-top: 90px;
+}
+
+/* Logo */
+.logo {
+  color: #fff !important;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/* Links */
+.custom-navbar .nav-link {
+  color: #fff !important;
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 20px;
+  transition: 0.3s ease;
+}
+
+.custom-navbar .nav-link:hover {
+  color: orange !important;
+}
+
+/* Remove toggler border */
+.navbar-toggler {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* White toggler icon */
+.navbar-toggler-icon {
+  filter: invert(1);
+}
+
+/* Smooth mobile dropdown */
+@media (max-width: 991px) {
+
+  .mobile-menu {
+    background-color: #222;
+    padding: 15px 0;
+    transition: all 0.4s ease;
+  }
+
+  .custom-navbar .nav-link {
+    margin-left: 0;
+    padding: 12px 0;
+    display: block;
+    text-align: center;
+  }
+}

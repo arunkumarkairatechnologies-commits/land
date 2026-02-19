@@ -1,0 +1,86 @@
+.footer-section {
+  background: #1f2432;
+  padding: 80px 0;
+  color: #ccc;
+}
+
+/* Titles */
+.footer-title {
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 25px;
+  font-size: 20px;   /* Increased */
+  letter-spacing: 1px;
+}
+
+/* Links */
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 15px;
+  font-size: 17px;   /* Increased */
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.footer-links li:hover {
+  color: #fff;
+  padding-left: 8px;
+}
+
+/* Contact Text */
+.footer-text {
+  font-size: 17px;  /* Increased */
+  margin-bottom: 10px;
+}
+
+/* Social Icons */
+.social-icons {
+  margin-top: 15px;
+}
+
+.social-icons i {
+  margin-right: 15px;
+  font-size: 22px;  /* Bigger Icons */
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.social-icons i:hover {
+  color: #fff;
+  transform: translateY(-4px);
+}
+
+/* App Buttons */
+.app-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.app-img {
+  width: 180px;
+  transition: 0.3s ease;
+}
+
+.app-img:hover {
+  transform: scale(1.05);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-section {
+    text-align: center;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+
+  .app-buttons {
+    align-items: center;
+  }
+}
