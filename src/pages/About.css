@@ -1,0 +1,120 @@
+.about-section {
+  background: #f5f6f8;
+  padding: 120px 0;
+}
+
+/* LEFT CARD */
+.left-card {
+  background: #ffffff;
+  padding: 70px;
+  border-radius: 25px;
+  height: 100%;
+}
+
+.small-title {
+  color: #ff7a00;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.main-title {
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 1.15;
+  margin: 30px 0;
+}
+
+.desc {
+  font-size: 22px;
+  line-height: 1.9;
+  color: #555;
+}
+
+/* IMAGE */
+.image-card img {
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+/* STATS */
+.stat-card {
+  background: #ffffff;
+  padding: 35px;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.05);
+  transition: 0.3s;
+}
+
+.stat-card h3 {
+  font-size: 38px;
+  font-weight: 800;
+}
+
+.stat-card p {
+  font-size: 20px;
+  color: #777;
+  margin: 0;
+}
+
+/* MISSION & VISION CARDS */
+.mv-card {
+  background: #ffffff;
+  padding: 60px;
+  border-radius: 25px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  text-align: center;
+  transition: 0.4s;
+}
+
+.mv-card:hover {
+  transform: translateY(-10px);
+}
+
+.mv-card h2 {
+  font-size: 34px;
+  font-weight: 800;
+  margin: 20px 0;
+}
+
+.mv-card p {
+  font-size: 20px;
+  color: #555;
+  line-height: 1.8;
+}
+
+/* ICON */
+.icon-box {
+  width: 80px;
+  height: 80px;
+  background: #ff7a00;
+  color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-size: 32px;
+}
+
+.vision-icon {
+  background: #0d6efd;
+}
+
+/* RESPONSIVE */
+@media (max-width: 991px) {
+  .main-title {
+    font-size: 42px;
+  }
+
+  .desc {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 576px) {
+  .main-title {
+    font-size: 32px;
+  }
+}

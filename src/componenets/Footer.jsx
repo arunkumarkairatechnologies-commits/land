@@ -33,7 +33,6 @@ function Footer() {
             <h5 className="footer-title">GET IN TOUCH</h5>
             <p className="footer-text">Call: 9999-999-999</p>
             <p className="footer-text">Email: sales@callinstore.com</p>
-
             <div className="social-icons">
               <i className="bi bi-facebook"></i>
               <i className="bi bi-instagram"></i>

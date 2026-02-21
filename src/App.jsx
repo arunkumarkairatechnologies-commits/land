@@ -1,6 +1,7 @@
-import { BrowserRouter, Routes, Route, Link} from "react-router-dom";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
+import Price from "./pages/Price"
 import Contact from "./pages/Contact";
 import Navbar from "./componenets/Navbar";
 import Footer from "./componenets/Footer";
@@ -10,7 +11,7 @@ import './index.css';
 
 function App() {
 
-   useEffect(() => {
+  useEffect(() => {
     AOS.init({
       duration: 1000,
       once: true,
@@ -20,9 +21,10 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
-         
+
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/price" element={<Price />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
